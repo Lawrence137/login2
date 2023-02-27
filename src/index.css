@@ -1,13 +1,12 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* import { download } from 'react-file-download';
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+const handleSignup = () => {
+    if (!users.find(user => user.username === username)) {
+      setUsers([...users, {username, password}]);
+      download(JSON.stringify(users), 'db.json', 'application/json');
+      alert("Signup successful!");
+      setShowSignUp(false);
+    }else {
+      alert("Username already taken");
+    } 
+} */
